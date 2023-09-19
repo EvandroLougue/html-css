@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    width: auto;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+}
+img#els {
+    margin-top: 20px;
+    margin-left: 500px;
+}
+section p {
+margin-left: auto;
+}
+h1 {
+    margin-left: 460px;
+    text-decoration: dotted;
+    text-shadow: 2cap 2px 3px blue;
+}

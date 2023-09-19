@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+iframe#video {
+
+}
+body {
+    background-color: blanchedalmond;
+}
+video {
+
+}
+h1  {
+    text-align: center;
+    text-shadow: 2px 2px 2px blue;
+}
+h2 {
+    text-align: left;
+    background-color: aqua;
+    color: blueviolet;
+}
+p {
+    text-align: justify;
+}

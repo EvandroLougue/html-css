@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        margin: 0;
+
+    }
+    header {
+        background-color: dimgray;
+        padding: 10px;
+        margin: 10px;
+    }
+    main {
+        background-color: aqua;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+    footer > p {
+        margin: 0px;
+    }
+    article {
+        background-color: bisque;
+        padding: 5px;
+    }
+    article > aside {
+        background-color: chocolate;
+    }
+    nav {
+        background-color: blueviolet;
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow: 1px 1px 1px black;
+    }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    h1 {
+        text-align: center;
+    }
+    div#bola {
+        height: 40px;
+        width: 40px;
+        background-color: yellow;
+        border-radius: 50%;
+        margin-left: 500px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+            <a href="http://google.com" target="_blank">Ir para o gúgol</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Aqui é um P, dentro de ARTICLE, que está dentro de SECTION e MAIN. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis, error accusamus sapiente tempora officiis illum facilis voluptate hic laborum harum, minus quia, repellendus dolores debitis modi. Maxime, sit dolorem.
+                <aside><p>Aqui é um conteúdo P dentro de uma ASIDE, que está contido em um ARTICLE. Conteúdo periférico do aside</p></aside>
+            </article>
+            <article>
+                <p>Aqui conteúdo normal, dentro de outro article que pertence ao MAIN. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non natus numquam obcaecati exercitationem, neque quam reiciendis iusto quibusdam, cupiditate facilis consequuntur consequatur illo quae saepe. Totam magnam at voluptatem!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="bola"></div>
+        <p>Desenvolvido por Evandro Lougue</p>
+    </footer>
+</body>
+</html>
