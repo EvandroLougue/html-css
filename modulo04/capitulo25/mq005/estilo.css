@@ -6,7 +6,7 @@
     padding: 0px;
 }
 body, html {
-    background-color: lightskyblue;
+    background-color: lightblue;
 }
 header {
     background-color: lightgray;
@@ -38,7 +38,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(69, 67, 230);
     color: white;
     border-top: 2px solid gray;
 }
@@ -63,5 +63,4 @@ article > p {
 h2 {
     padding: 20px;
     text-align: center;
-
 }
